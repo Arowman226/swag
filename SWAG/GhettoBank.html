@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+    
+    <script type="text/javascript">
+    
+    var iInput = parseInt(prompt("Please enter odd number"));    
+        
+    function makeStars(iNumber){
+
+    var sStars="";
+
+        for(var iCount=0; iCount<iNumber;iCount++){
+            sStars += "*";
+        }
+        return sStars;
+
+    }
+
+    if (iInput%2!==1){
+        var sStarhold = "not an odd number";
+    } else {
+        for(i=iInput; i>0; i -= 2){
+           var sStarhold += makeStars(i)+ "</br>";
+            }
+        };
+    //calling
+    //OUTPUT
+    document.write(sStarhold);
+    </script>
+    
+    
+</body>
+</html>

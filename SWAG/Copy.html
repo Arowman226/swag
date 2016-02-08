@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+<script type="text/javascript">
+    
+    var iNumCopies = prompt("How many copies you want?");
+    var iTotalPrice;
+        
+    if (iNumCopies > 100) {
+        iTotalPrice = (iNumCopies-100)*.03 + 5;
+    }    
+            
+    else {
+        iTotalPrice = iNumCopies *.05;
+    }
+            
+    document.write("The total price is $" + iTotalPrice);
+    
+</script>
+    
+</body>
+</html>
