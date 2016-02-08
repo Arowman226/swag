@@ -1,0 +1,73 @@
+
+.formGroup{
+    padding: 0.5em 0;
+
+}
+
+.formGroup label{
+    display: block;
+    width: 40%;
+    float: left;
+    text-align: right;
+    font-weight: bold;
+    padding-right:1em;
+    box-sizing:border-box; /*for fixing wee alignment*/
+}
+
+.formGroup label span{
+    display: block;
+    font-weight: normal;
+    color: gray;
+    font-size: 0.7em;
+
+}
+
+.formGroup input{
+    display: block;
+    width: 40%;
+    float: left;
+    height: 1.5em;
+
+}
+
+.formGroup:after{
+
+    content: "";
+    display: block; 
+    clear:both;
+}
+
+.formGroup.buttonGroup{
+    padding-left: 40%;
+}
+
+.formGroup.buttonGroup input{
+    height: auto;
+    width: auto;
+    display: inline-block;
+    margin-right: 1em;
+}
+
+
+/*modal styling*/
+
+.contactForm{
+    width: 70%;
+    max-width: 40em;
+    text-transform: uppercase;
+    height: 200vh;
+/*    position: relative;*/
+    margin: 20em auto;
+    background-color: white;
+    left: 50%;
+    padding: 2em;
+    border-radius: 0.2em;
+    border:thin #eee solid;
+}
+
+.contactForm .message{
+    color: red;
+    padding-left: 1em;
+    font-size: 0.7em;
+}
+
